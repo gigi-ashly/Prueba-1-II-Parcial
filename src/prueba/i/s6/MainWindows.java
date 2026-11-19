@@ -12,6 +12,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultMutableTreeNode;
 import java.util.HashSet;
+import java.util.Set;
 /**
  *
  * @author gigiw
@@ -36,7 +37,7 @@ public class MainWindows extends JFrame {
 
     private AnalysisWorker trabajador;
 
-    public MainWindow() {
+    public MainWindows() {
 
         controlador = new FileController();
 

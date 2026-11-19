@@ -9,6 +9,11 @@ package prueba.i.s6;
  *
  * @author gigiw
  */
-public class RutaInvalidaException {
-    
+public class RutaInvalidaException extends Exception {
+
+    public RutaInvalidaException(String mensaje) {
+        super(mensaje);
+    }
 }
+
+
